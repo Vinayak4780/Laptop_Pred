@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle 
 import numpy as np
-pipe = pickle.load(open('pipe.pkl','rb'))
+#pipe = pickle.load(open('pipe.pkl','rb'))
 laptop_preds = pickle.load(open('laptop_preds.pkl','rb'))
 st.title("Laptop Prediction")
 
